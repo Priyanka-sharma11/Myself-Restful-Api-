@@ -1,0 +1,33 @@
+.card{
+    border:solid black 4px;
+    width:90%;
+    border-radius:6px;
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+    background-color:pink; 
+}
+body{
+    background-color:lightblue;
+    color:black;
+}
+.div{
+    display:flex;
+    flex-direction:row;
+    margin-top:5px;
+}
+
+h1{
+    color:rgb(196, 61, 196);
+    text-align:center;
+}
+.username{
+    margin-left:10px;
+}
+.caption{
+    margin-left:10px;
+    margin-bottom:7px;
+}
+img{
+    width:40%;
+}

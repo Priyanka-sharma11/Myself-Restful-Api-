@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit post</title>
+</head>
+<body>
+    <form action="/posts/<%=post.id%>/?_method=PATCH" method="post">
+        <input placeholder="enter image address" name="img" value="<%=post.img%>"><br><br>
+        <textarea name="caption" rows="8" cols="30"><%=post.caption%></textarea><br><br>
+        <button>submit</button>
+    </form>
+</body>
+</html>
